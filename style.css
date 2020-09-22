@@ -1,0 +1,70 @@
+html, body {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e6ee9c;
+    background-color: #263238;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 421px;
+    height: 420px;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    background-color: #78909c;
+    border: 5px solid #263238;
+    box-sizing: border-box;
+}
+ 
+.wall {
+    background-color: #546e7a;
+}
+
+.power-pellet {
+    background-color: #78909c;
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: #e6ee9c;
+    border-radius: 7.5px;
+    border: none;
+}
+
+.blinky {
+    background-color: red;
+    border: none;
+}
+
+.pinky {
+    background-color: pink;
+    border: none;
+}
+
+.inky {
+    background-color: #1e88e5;
+    border: none;
+}
+
+.clyde {
+    background-color: orange;
+    border: none;
+}
+
+.scared-ghost {
+    background-color: #880e4f;
+    border: none;
+}
