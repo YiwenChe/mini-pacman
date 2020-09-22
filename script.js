@@ -106,6 +106,7 @@ function control(event) {
     powerPelletEaten()
     checkForWin()
     checkForGameOver()
+    console.log(score)
 }
 
 document.addEventListener('keyup', control)
@@ -206,7 +207,7 @@ function checkForGameOver() {
 //++ define winning ++//
 
 function checkForWin() {
-    if (score === 274) {
+    if (score >= 286) {
         ghosts.forEach(ghost => clearInterval(ghost.timerId))
         document.removeEventListener('keyup', control)
         scoreDisplay.innerHTML = 'YaY!'
